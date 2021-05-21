@@ -1,2 +1,2 @@
-# crypto-tools
+# Klodnicki Crypto Tools
 Tools for Crypto Trading
