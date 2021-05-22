@@ -1,7 +1,18 @@
 {
   "name": "klodnicki-crypto-tools",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Tools for Crypto Trading",
+  "author": {
+    "name": "Josh Klodnicki",
+    "email": "joshklod@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Zack Klodnicki",
+      "email": "klod.zack@gmail.com"
+    }
+  ],
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,13 +25,11 @@
     "type": "git",
     "url": "git+https://github.com/klodnicki/crypto-tools.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/klodnicki/crypto-tools#readme",
   "bugs": {
     "url": "https://github.com/klodnicki/crypto-tools/issues"
   },
-  "homepage": "https://github.com/klodnicki/crypto-tools#readme",
+  "keywords": [],
   "dependencies": {
     "express": "^4.17.1"
   }
