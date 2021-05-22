@@ -1,0 +1,26 @@
+{
+  "name": "crypto-tools",
+  "version": "1.0.0",
+  "description": "Tools for Crypto Trading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crypto-tools": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klodnicki/crypto-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klodnicki/crypto-tools/issues"
+  },
+  "homepage": "https://github.com/klodnicki/crypto-tools#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
