@@ -1,14 +1,14 @@
 {
-  "name": "crypto-tools",
+  "name": "klodnicki-crypto-tools",
   "version": "1.0.0",
   "description": "Tools for Crypto Trading",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "rm -f crypto-tools*.tgz && npm pack && mv crypto-tools*.tgz crypto-tools.tgz"
+    "pack": "rm -f klodnicki-crypto-tools*.tgz && npm pack && mv klodnicki-crypto-tools*.tgz klodnicki-crypto-tools.tgz"
   },
   "bin": {
-    "crypto-tools": "index.js"
+    "klodnicki-crypto-tools": "index.js"
   },
   "repository": {
     "type": "git",

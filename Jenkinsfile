@@ -33,12 +33,12 @@ pipeline {
             steps { script {
                 sshCommand remote: remote, command: 'rm -rf app.new app.old'
                 sshCommand remote: remote, command: 'mkdir app.new'
-                sshPut remote: remote, from: 'crypto-tools.tgz', into: 'app.new'
+                sshPut remote: remote, from: 'klodnicki-crypto-tools.tgz', into: 'app.new'
                 sshPut remote: remote, from: 'com-klodnicki-crypto-tools.service', into: 'app.new'
                 sshCommand remote: remote, command: '''
                     cd app.new &&
-                    npm i crypto-tools.tgz &&
-                    rm crypto-tools.tgz &&
+                    npm i klodnicki-crypto-tools.tgz &&
+                    rm klodnicki-crypto-tools.tgz &&
                     mkdir -p ~/.config/systemd/user/ &&
                     mv com-klodnicki-crypto-tools.service ~/.config/systemd/user/com-klodnicki-crypto-tools.service
                 '''
