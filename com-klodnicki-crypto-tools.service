@@ -1,0 +1,15 @@
+[Unit]
+Description=com-klodnicki-crypto-tools
+
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+ExecStart=/var/www/com/klodnicki/crypto-tools/app/node_modules/.bin/crypto-tools
+
+Restart=on-failure
+RestartSec=1s
+
+[Install]
+WantedBy=multi-user.target
+Alias=com-klodnicki-crypto-tools.service
