@@ -30,5 +30,7 @@
     "url": "https://github.com/klodnicki/crypto-tools/issues"
   },
   "keywords": [],
-  "dependencies": {}
+  "dependencies": {
+    "ccxt": "^1.50.29"
+  }
 }
