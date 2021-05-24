@@ -30,7 +30,5 @@
     "url": "https://github.com/klodnicki/crypto-tools/issues"
   },
   "keywords": [],
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {}
 }
