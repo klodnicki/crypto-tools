@@ -1,0 +1,12 @@
+{
+	"users": {
+		"josh": {
+			"exchanges": {
+				"Binance": {
+					"exchange": "binanceus"
+				}
+			},
+			"orders": []
+		}
+	}
+}
