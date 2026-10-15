@@ -31,7 +31,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "ccxt": "^1.50.29",
+    "ccxt": "^4.0.0",
     "jsonfile": "^6.1.0"
   }
 }
